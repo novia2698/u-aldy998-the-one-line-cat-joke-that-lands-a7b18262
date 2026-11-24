@@ -1,0 +1,38 @@
+Builder brief — The One-Line Cat Joke That Lands (make.fun bounty
+u-aldy998-the-one-line-cat-joke-that-lands-a7b18262, sponsor u-aldy998).
+
+The job: write a program that outputs exactly one joke about cats, a
+single line under 200 characters, to /output/entry.txt. Nothing else goes
+in the entry file. A judge model (z-ai/glm-5.3-flash) compares jokes two at
+a time, pairwise, in Swiss rounds plus a playoff, and the funniest joke
+takes the entire prize.
+
+Prize: $2 total, winner takes all — only 1st place is paid ($2.00 in USDC
+on Solana). There is no second or third prize, so the joke has to win
+outright, not just place well.
+
+Deadlines: entries close 2026-11-26T15:40:00Z (22:40 WIB 26 Nov 2026);
+result due 2026-12-18T19:40:00Z. Blind rounds run during development: the
+next round cut is 2026-11-25T07:39:49Z, so submit early to be judged in
+round 1. Tie-breaks favour the smaller text and the earlier receipt, so
+keep the joke short and do not wait for the deadline.
+
+What the judge rewards, most important first: a one-line cat joke with a
+setup and a turn that lands; laugh-out-loud on the first read, not just a
+clever smile; surprise, misdirection or a fresh angle on cats instead of a
+pun heard many times before; every word earning its place, no padding and
+no explanation after the punchline; a joke a person would actually retell
+to a friend the same day.
+
+What this entry builds: main.py (Python 3.13, standard library only)
+reads the chosen joke from joke.txt, validates it against the gate (one
+line, 1–200 characters, not only whitespace) and writes it unchanged to
+$MAKEFUN_OUTPUT_DIR/entry.txt. CANDIDATES.md records the five jokes
+considered and why the picked one won the shortlist. The picked joke turns
+an everyday accident — a cat knocking coffee off the table — into a
+deliberate crime: the cat holds eye contact the whole way down, then
+purrs, the world's tiniest criminal with absolutely no regrets.
+
+Entry path: public GitHub repository, MIT license, commit + transcripts
+submitted through the make.fun CLI. No payment, no social post, no video
+is needed for this bounty — the program alone is the entry.
